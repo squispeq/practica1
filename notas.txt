@@ -19,3 +19,7 @@ $ git config --help
 SERGIO@DESKTOP-I93IM5I MINGW64 ~ (master)
 $ pwd
 /c/Users/SERGIO
+-------------------------
+
+git add notas.txt
+
