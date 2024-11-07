@@ -22,4 +22,9 @@ $ pwd
 -------------------------
 
 git add notas.txt
+git commit -m "Actualizar el archivo notas.txt 1"
+
+git commit -m "Actualizar el archivo notas.txt 2"
+git commit -m "Actualizar el archivo notas.txt 3"
+
 
