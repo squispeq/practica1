@@ -1,0 +1,21 @@
+git --version
+SERGIO@DESKTOP-I93IM5I MINGW64 ~ (master)
+$ git config --global user.name "Sergio Quispe"
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~ (master)
+$ git config --global user.email sergio07026@gmail.com
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~ (master)
+$ git config user.name
+Sergio Quispe
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~ (master)
+$ git config user.email
+sergio07026@gmail.com
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~ (master)
+$ git config --help
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~ (master)
+$ pwd
+/c/Users/SERGIO
