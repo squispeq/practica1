@@ -30,4 +30,10 @@ git commit -m "Actualizar el archivo notas.txt 3"
 git commit -m "Actualizar el archivo notas.txt 3"
 git commit -m "Actualizar el archivo notas.txt 4"
 
+git log --oneline
+
+git branch
+git branch feature
+
+
 
