@@ -36,4 +36,84 @@ git branch
 git branch feature
 
 
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git branch -l
+* feature
+  master
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git add notas.txt
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git commit -m "Actualizar el archivo notas.txt 3 pero con feature"
+[feature 8833f08] Actualizar el archivo notas.txt 3 pero con feature
+ 1 file changed, 6 insertions(+)
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git log --oneline
+8833f08 (HEAD -> feature) Actualizar el archivo notas.txt 3 pero con feature
+f1d6382 (master) Actualizar el archivo notas.txt 3
+d828f76 Actualizar el archivo notas.txt 2
+1ca7111 Actualizar el archivo notas.txt 1
+30cd2fb Añadir archivo de notas.txt con contenido inicial
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git add tareas.txt
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git commit -m "Añadir archivo tareas.txt"
+[feature cae312c] Añadir archivo tareas.txt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 tareas.txt
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git log --oneline
+cae312c (HEAD -> feature) Añadir archivo tareas.txt
+8833f08 Actualizar el archivo notas.txt 3 pero con feature
+f1d6382 (master) Actualizar el archivo notas.txt 3
+d828f76 Actualizar el archivo notas.txt 2
+1ca7111 Actualizar el archivo notas.txt 1
+30cd2fb Añadir archivo de notas.txt con contenido inicial
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git add tareas.txt
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git commit -m "Añadir archivo tareas.txt commit 2"
+[feature 06916f3] Añadir archivo tareas.txt commit 2
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git log --oneline
+06916f3 (HEAD -> feature) Añadir archivo tareas.txt commit 2
+cae312c Añadir archivo tareas.txt
+8833f08 Actualizar el archivo notas.txt 3 pero con feature
+f1d6382 (master) Actualizar el archivo notas.txt 3
+d828f76 Actualizar el archivo notas.txt 2
+1ca7111 Actualizar el archivo notas.txt 1
+30cd2fb Añadir archivo de notas.txt con contenido inicial
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git add tareas.txt
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git commit -m "Añadir archivo tareas.txt commit 3"
+[feature 0e95fe7] Añadir archivo tareas.txt commit 3
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$ git log --oneline
+0e95fe7 (HEAD -> feature) Añadir archivo tareas.txt commit 3
+06916f3 Añadir archivo tareas.txt commit 2
+cae312c Añadir archivo tareas.txt
+8833f08 Actualizar el archivo notas.txt 3 pero con feature
+f1d6382 (master) Actualizar el archivo notas.txt 3
+d828f76 Actualizar el archivo notas.txt 2
+1ca7111 Actualizar el archivo notas.txt 1
+30cd2fb Añadir archivo de notas.txt con contenido inicial
+
+SERGIO@DESKTOP-I93IM5I MINGW64 ~/Desktop/practica1 (feature)
+$
+
+
 
